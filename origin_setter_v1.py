@@ -52,7 +52,7 @@ class OBJECT_ORIGIN_SETTER(bpy.types.Operator):
 def test():
     obj = bpy.context.active_object
     if (obj.type=='MESH' and obj.mode=='EDIT'):
-        print("bob")
+        print("mesh")
         
         for area in bpy.context.screen.areas:
             if area.type == 'VIEW_3D':
